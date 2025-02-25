@@ -16,7 +16,7 @@ const typeOrmConfig = {
     autoLoadEntities: true,
     synchronize: false,
     logging: true,
-    migrations: [],
+    migrations: ['dist/migrations/*{.js,.ts}'],
     migrationRun: true,
     subscribe: [],
     extra: {

@@ -17,5 +17,7 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false
-  }
+  },
+  "include": ["src/**/*"],   // Asegura que los archivos TS dentro de 'src' sean considerados.
+  "exclude": ["node_modules"] // Para excluir la carpeta 'node_modules' del proceso de compilación.
 }
